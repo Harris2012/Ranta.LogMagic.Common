@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ranta.LogMagic.Common</id>
+    <version>1.0.0</version>
+    <title>Ranta.LogMagic.Common</title>
+    <authors>Harris Zhang</authors>
+    <owners>Harris Zhang</owners>
+    <licenseUrl>http://www.ranta.cn</licenseUrl>
+    <projectUrl>http://www.ranta.cn</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/harriszhang14/Ranta/master/Ranta.Image/Icon/RantaIcon_150_150.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Ranta.LogMagic.Common</description>
+    <releaseNotes>Ranta.LogMagic Common</releaseNotes>
+    <copyright>Copyright ranta 2016</copyright>
+    <tags>Ranta LogMagic Common</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Messaging" targetFramework="net40" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="Ranta.LogMagic.Common.Net40\bin\Release\Ranta.LogMagic.Common.dll" target="lib\net40" />
+    <file src="Ranta.LogMagic.Common.Net40\bin\Release\Ranta.LogMagic.Common.xml" target="lib\net40" />
+    <file src="Ranta.LogMagic.Common.Net45\bin\Release\Ranta.LogMagic.Common.dll" target="lib\net45" />
+    <file src="Ranta.LogMagic.Common.Net45\bin\Release\Ranta.LogMagic.Common.xml" target="lib\net45" />
+  </files>
+</package>
